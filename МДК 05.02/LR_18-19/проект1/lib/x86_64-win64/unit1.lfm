@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 921
+  Height = 409
+  Top = 360
+  Width = 653
+  Caption = 'Form1'
+  ClientHeight = 409
+  ClientWidth = 653
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 80
+    Height = 40
+    Top = 72
+    Width = 496
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Догадайтесь, кто сделал проект?'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -27
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 224
+    Height = 41
+    Top = 136
+    Width = 192
+    Caption = 'Щелкните здесь!'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -24
+    Font.Name = 'Monotype Corsiva'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 48
+    Top = 184
+    Width = 488
+    Alignment = taCenter
+    AutoSize = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -35
+    Font.Name = 'Arial Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 568
+    Height = 30
+    Top = 360
+    Width = 83
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+end
